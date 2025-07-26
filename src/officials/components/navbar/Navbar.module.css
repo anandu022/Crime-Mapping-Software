@@ -1,0 +1,92 @@
+/* Main container for the navbar */
+.main {
+  display: flex;
+  justify-content: space-between; /* Space out links and avatar */
+  align-items: center;
+  padding: 15px 20px; /* Increased padding for a taller navbar */
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  height: 70px; /* Increased height for a taller navbar */
+
+  /* Stick to the top */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%; /* Ensure navbar width doesn't exceed viewport */
+  box-sizing: border-box; /* Include padding and border in width */
+  z-index: 1000; /* Stay above other content */
+}
+
+/* Flex container for left and right sections */
+.inside {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Container for each link */
+.Links {
+  margin-left: 10px; /* Space between links */
+}
+
+/* Link styling */
+.Link {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Default text color */
+  font-size: 1rem; /* Font size */
+  font-weight: 500; /* Medium font weight */
+  padding: 8px 12px; /* Padding for clickable area */
+  border-radius: 4px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for links */
+.Link:hover {
+  color: #7e57c2; /* Purple text color on hover */
+  background-color: #f3e5f5; /* Light purple background on hover */
+}
+
+/* Active link styling (optional) */
+.Link:active {
+  color: #4a148c; /* Darker purple text color when active */
+}
+
+/* Container for profile box */
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Box containing link items */
+.box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 5px;
+}
+
+/* Box items (links) */
+.boxitem {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Default text color */
+  border-radius: 4px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  padding: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 80%;
+}
+
+/* Box item hover effect */
+.boxitem:hover {
+  color: #7e57c2; /* Purple text color on hover */
+  background-color: #f3e5f5;
+}
+
+/* Avatar container */
+.Images {
+  margin-left: 20px; /* Space between links and avatar */
+}
+
+
