@@ -1,0 +1,20 @@
+.cont1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:400px
+}
+.but1 {
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-transform: none;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .MuiButton-contained:hover {
+    background-color: #9c27b0; /* Lighter purple on hover */
+  }

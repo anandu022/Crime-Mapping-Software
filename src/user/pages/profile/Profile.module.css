@@ -1,0 +1,108 @@
+/* General container for profile layout */
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  gap: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Avatar column */
+.column1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc; /* Purple border */
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #faf5fc; /* Soft purple tint */
+  box-shadow: 0 4px 10px rgba(106, 27, 154, 0.2);
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+/* Details column */
+.column2 {
+  flex: 1;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 40px;
+  background-color: #faf5fc;
+  box-shadow: 0 4px 10px rgba(106, 27, 154, 0.2);
+}
+
+/* Field styling */
+.field {
+  margin-bottom: 12px;
+}
+
+.field p {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Avatar styling */
+.avatar {
+  border: 3px solid #6a1b9a;
+  border-radius: 50%;
+}
+
+/* Profile heading */
+h1 {
+  color: #6a1b9a;
+  text-align: center;
+
+}
+
+/* Details heading */
+h2 {
+  color: #6a1b9a;
+  text-align: center;
+
+}
+
+/* Edit icon styling */
+.edit {
+  position: absolute;
+  color: #6a1b9a;
+  transition: all 0.2s ease-in-out;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.edit:hover {
+  color: #4a148c;
+}
+
+/* Text styling inside details */
+.boxitem {
+  font-size: 16px;
+  color: #4a148c;
+  font-weight: 500;
+  padding: 8px 0;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .column1,
+  .column2 {
+    width: 100%;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+  }
+}

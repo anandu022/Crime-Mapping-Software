@@ -1,0 +1,84 @@
+/* Main container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+}
+
+/* Heading (Update Photo) */
+.MuiTypography-root {
+  color: #6a1b9a; /* Deep purple */
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Input and Button container */
+.inp1 {
+  margin: 0; /* Remove extra margin */
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Upload Button styling */
+.uploadbutton {
+  background-color: #6a1b9a !important; /* Deep purple */
+  color: white !important;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-transform: none;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px; /* Space above the first button */
+  margin-bottom: 10px; /* Space between the buttons */
+}
+
+/* Smooth hover effect with slightly darker purple */
+.uploadbutton:hover {
+  background-color: #5a148a !important; /* Slightly darker purple */
+}
+
+/* Submit Button (Update) */
+.submitbutton {
+  background-color: #6a1b9a !important; /* Deep purple */
+  color: white !important;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-transform: none;
+  transition: background-color 0.3s ease;
+  margin-top: 0; /* No extra space here */
+}
+
+/* Same hover effect for submit button */
+.submitbutton:hover {
+  background-color: #5a148a !important; /* Slightly darker purple */
+}
+
+/* Hidden input for file upload */
+input[type="file"] {
+  display: none; /* Hidden but clickable through button */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .MuiTypography-root {
+    font-size: 2rem;
+  }
+
+  .inp1 {
+    max-width: 100%;
+  }
+
+  .uploadbutton,
+  .submitbutton {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
