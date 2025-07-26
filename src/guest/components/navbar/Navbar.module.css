@@ -1,0 +1,53 @@
+/* Main container for the navbar */
+.main {
+  display: flex;
+  justify-content: flex-end; /* Align links to the right */
+  align-items: center;
+  padding: 15px 20px; /* Add padding */
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  height: 70px;
+
+  /* Stick to the top */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%; /* Ensure navbar width doesn't exceed viewport */
+  box-sizing: border-box; /* Include padding and border in width */
+  z-index: 1000; /* Stay above other content */
+}
+
+/* Container for each link */
+.Links {
+  margin-left: 20px; /* Space between links */
+}
+
+/* Link styling */
+.Link {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Default text color */
+  font-size: 1rem; /* Font size */
+  font-weight: 500; /* Medium font weight */
+  padding: 8px 12px; /* Padding for clickable area */
+  border-radius: 4px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for links */
+.Link:hover {
+  color: #7e57c2; /* Purple text color on hover */
+  background-color: #f3e5f5; /* Light purple background on hover */
+}
+
+/* Active link styling (optional) */
+.Link:active {
+  color: #4a148c; /* Darker purple text color when active */
+}
+
+/* Avatar container (commented out in your code) */
+.Images {
+  margin-left: 20px; /* Space between links and avatar */
+}
+
+

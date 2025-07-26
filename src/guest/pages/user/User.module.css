@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    gap: 10px;
+  }
+
+  h1 {
+    color: #6439ff; /* Deep purple */
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  
+  .inp1 {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  /* Style for TextField */
+  .MuiOutlinedInput-root {
+    border-radius: 8px;
+  }
+  
+  .MuiOutlinedInput-input {
+    padding: 12px;
+  }
+  
+  .MuiInputLabel-outlined {
+    color: #6a1b9a; /* Deep purple */
+  }
+  
+  .MuiOutlinedInput-notchedOutline {
+    border-color: #6a1b9a; /* Deep purple */
+  }
+  
+  .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #9c27b0; /* Lighter purple on hover */
+  }
+  
+  /* Style for Button */
+  .MuiButton-contained {
+    background-color: #6a1b9a; /* Deep purple */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-transform: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .MuiButton-contained:hover {
+    background-color: #9c27b0; /* Lighter purple on hover */
+  }
+  
+  /* Style for IconButton (Password Toggle) */
+  .MuiIconButton-root {
+    color: #6a1b9a; /* Deep purple */
+  }
+  
+  .MuiIconButton-root:hover {
+    color: #9c27b0; /* Lighter purple on hover */
+  }
