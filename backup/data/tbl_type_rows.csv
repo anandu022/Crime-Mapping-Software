@@ -1,0 +1,6 @@
+id,created_at,type_name
+1,2025-03-08 05:06:21.991307+00,Violent Crimes
+2,2025-03-08 05:06:55.089967+00,Property Crimes
+3,2025-03-08 05:07:37.578116+00,White-Collar Crimes
+4,2025-03-08 05:08:01.467235+00,Cybercrimes
+5,2025-03-08 05:08:29.318493+00,Drug Crimes
