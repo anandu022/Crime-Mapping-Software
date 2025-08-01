@@ -79,7 +79,7 @@ In case the Supabase project is deleted, the application can be fully restored u
 2.  For each table listed, click on the table name.
 3.  Click the options menu (three dots) and select **"Import Data from CSV"**.
 4.  Choose the corresponding `.csv` file from the `backup/data/` directory.
-5.  Repeat this process for every table.
+5.  Provide necessary details for admin user.
 
 ### Step 4: Update Environment Variables
 
